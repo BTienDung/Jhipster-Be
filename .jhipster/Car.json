@@ -1,0 +1,29 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "carsapp",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "make",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "model",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Double"
+    }
+  ],
+  "changelogDate": "20200720072412",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "car",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": true,
+  "pagination": "no",
+  "microserviceName": "carsapp"
+}
